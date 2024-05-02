@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 /**
  * 支持war包部署
  */
-public class ServletInitializer extends SpringBootServletInitializer {
+public class ServletInitializerConfig extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(SpringJspApplication.class);
